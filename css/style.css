@@ -1,0 +1,339 @@
+.fondo{
+    display: flex;
+    flex-direction: row;
+    height: 44em;
+    width: 95em;
+    background-color: rgb(85, 73, 73)
+}
+.formaDelMando1{
+    width: 5em;
+}
+.formaDelMando2{
+    display: flex;
+    flex-direction: column;
+    height: 40em;
+    width: 85em;
+    background: rgb(107, 113, 134);
+    background: linear-gradient(0deg, rgba(81,83,91,1) 0%, rgba(124,126,137,1) 0%, rgba(197,198,210,1) 20%, rgba(255,255,255,1) 100%);
+    align-self: flex-end;
+    border-top-left-radius: 100em 15em;
+    border-top-right-radius: 100em 15em;
+    border-bottom-right-radius: 20em 85em;
+    border-bottom-left-radius: 20em 85em;
+    -webkit-box-shadow: 30px 20px 50px 10px rgba(0,0,0,1);
+    -moz-box-shadow: 30px 20px 50px 10px rgba(0,0,0,1);
+    box-shadow: 30px 20px 50px 10px rgba(0,0,0,1);
+}
+.parteSuperior{
+    display: flex;
+    flex-direction: row;
+    height: 18em;
+}
+.falloCalculos{
+    height: 18em;
+    width: 4em;
+}
+.crucetas{
+    width: 18em;
+    height: 18em;
+    background-color: black;
+    border-radius: 2em;
+    border-top-left-radius: 40em 7em;
+}
+.espacioCrucetas1{
+    display: flex;
+    flex-direction: row;
+    height: 7em;
+    width: 18em;
+}
+.inicioCruceta2{
+    height: 7em;
+    width: 7em;
+}
+.crucetaSuperior{
+    height: 4em;
+    width: 4em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    align-self: flex-end;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 75%, 50% 100%, 10% 75%);
+}
+.inicioCruceta3{
+    height: 7em;
+    width: 7em;
+}
+.crucetaInferior{
+    height: 4em;
+    width: 4em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    clip-path: polygon(10% 25%, 50% 0%, 90% 25%, 100% 100%, 0% 100%);
+}
+.espacioCrucetas2{
+    display: flex;
+    flex-direction: row;
+    height: 4em;
+    width: 18em;
+}
+.inicioCruceta1{
+    height: 4em;
+    width: 3.5em;
+}
+.crucetaIzquierda{
+    height: 4em;
+    width: 4em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    clip-path: polygon(0% 0%, 75% 10%, 100% 50%, 75% 90%, 0% 100%);
+}
+.crucetaDerecha{
+    height: 4em;
+    width: 4em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    clip-path: polygon(25% 10%, 100% 0%, 100% 100%, 25% 90%, 0% 50%);
+}
+.separacionCrucetas{
+    height: 4em;
+    width: 3em;
+}
+.espacioCrucetas3{
+    display: flex;
+    flex-direction: row;
+    height: 7em;
+    width: 18em;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    width: 2em;
+}
+.botonShare{
+    height: 4em;
+    width: 2em;
+    align-self: flex-end;
+    border-radius: 1em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+}
+.touchpad{
+    height: 18em;
+    width: 37em;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(40,55,162,1) 100%);
+    border-bottom: 1em solid black;
+    border-top-left-radius: 100em 3em;
+    border-top-right-radius: 100em 3em;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    width: 2em;
+}
+.botonOptions{
+    height: 4em;
+    width: 2em;
+    border-radius: 1em;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    align-self: flex-end;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    height: 18em;
+    background-color: black;
+    border-radius: 2em;
+    border-top-right-radius: 40em 7em;
+}
+.triangulo{
+    display: flex;
+    flex-direction: row;
+    height: 8em;
+    width: 18em;
+}
+.espacioTriangulo{
+    height: 8em;
+    width: 6.5em;
+}
+.botonTriangulo{
+    display: flex;
+    flex-direction: column;
+    height: 5em;
+    width: 5em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+    align-self: flex-end;
+}
+.simboloTriangulo{
+    height: 4em;
+    width: 4em;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: rgb(199,216,195);
+    background: radial-gradient(circle, rgba(199,216,195,1) 0%, rgba(127,184,127,1) 77%, rgba(114,210,99,1) 100%);
+    align-self: center;
+}
+.cuadradoCirculo{
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    width: 18em;
+}
+.inicioCuadrado{
+    height: 5em;
+    width: 1.5em;
+}
+.botonCuadrado{
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    width: 5em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+}
+.espacioSimboloCuadrado{
+    width: 1em;
+}
+.simboloCuadrado{
+    height: 4em;
+    width: 3em;
+    background: rgb(211,196,213);
+    background: radial-gradient(circle, rgba(211,196,213,1) 0%, rgba(192,120,176,1) 77%, rgba(210,99,178,1) 100%);
+    align-self: center;
+}
+.espacioCirculo{
+    height: 5em;
+    width: 5em;
+}
+.botonCirculo{
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    width: 5em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+}
+.espacioSimboloCirculo{
+    width: 0.5em;
+}
+.simboloCirculo{
+    height: 4em;
+    width: 4em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(190,154,154);
+    background: radial-gradient(circle, rgba(190,154,154,1) 0%, rgba(214,93,93,1) 77%, rgba(197,3,3,1) 100%);
+    align-self: center;
+}
+.x{
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    width: 18em;
+}
+.inicioX{
+    height: 5em;
+    width: 6.5em;
+}
+.botonX{
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    width: 5em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,98,103,1) 100%);
+}
+.simboloX{
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    width: 6em;
+    clip-path: circle(50% at 50% 50%);
+    background: rgb(154,159,190);
+    background: radial-gradient(circle, rgba(154,159,190,1) 0%, rgba(93,114,214,1) 77%, rgba(3,17,197,1) 100%);
+    align-self: center;
+}
+.espacioX{
+    height: 1.1em;
+    width: 1.1em;
+}
+.X{
+    color: blue;
+    font-size: 4em;
+    align-self: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parteOscura2{
+    display: flex;
+    flex-direction: column;
+    height: 22em;
+    width: 55em;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    background-color: black;
+    align-self: center;
+    border-top-right-radius: 20em;
+    border-top-left-radius: 20em;
+    border-right: 5em solid black;
+    border-left: 5em solid black;
+}
+.huecoVacio{
+    height: 12em;
+    width: 60em;
+    background: rgb(85, 73, 73);
+    -webkit-box-shadow: inset 30px 20px 50px 10px rgba(0,0,0,1);
+    -moz-box-shadow: inset 30px 20px 50px 10px rgba(0,0,0,1);
+    box-shadow: inset 30px 20px 50px 10px rgba(0,0,0,1);
+    align-self: center;
+    clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+}
+.espacioJoysticks{
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    width: 55em;
+    align-self: center;
+}
+.joystickIzquierdo{
+    height: 10em;
+    width: 20em;
+    background: rgb(44,47,66);
+    background: linear-gradient(0deg, rgba(44,47,66,1) 0%, rgba(0,0,0,1) 100%);
+    clip-path: circle(32% at 50% 50%);
+}
+.joystickDerecho{
+    height: 10em;
+    width: 20em;
+    background: rgb(44,47,66);
+    background: linear-gradient(0deg, rgba(44,47,66,1) 0%, rgba(0,0,0,1) 100%);
+    clip-path: circle(32% at 50% 50%);
+}
+.relieveJoystick{
+    height: 10em;
+    width: 20em;
+    background-color:  rgb(32, 19, 19);
+    clip-path: circle(26% at 50% 50%);
+}
+.bordeJoystick{
+    height: 10em;
+    width: 20em;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,64,61,1) 100%);
+    clip-path: circle(20% at 50% 50%);
+}
+.botonPS{
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    width: 15em;
+}
